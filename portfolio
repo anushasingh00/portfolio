@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY PORTFOLIO</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 	<link rel="stylesheet" href ="newstyle.css">
+	<link href="https://fonts.google.com/specimen/Josefin+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+	
+
+</head>
+<body>
+
+<a href="logout.php">Logout Now</a>
+	
+	<div class="container">
+			<h1>WELCOME TO ANUSHA SINGH'S PORTFOLIO	</h1>
+			
+	</div>
+
+
+	<div class="intro">
+	    <p>Hello! this is my personal website where you can find more about me,what I do,what I like and how to get in touch with me &#x1F60A;</p>
+    </div>
+    <div class="heading">
+    	<h3>About Me:</h3>
+ 
+    </div>
+    <div class="image">
+    <img src="meimage.jpg" width="400px">
+	</div>
+	<div class="content">
+		<p>My name is Anusha Singh.I was born and brought up in Lucknow,Uttar Pradesh.I spent most of my life in lucknow itself but I have stayed in places like Goa,Delhi,Shimla,Mumbai etc. because of the profession of my father.I have completed my schooling from the most renowned school in Uttar Pradesh City Montessori School in 2019. Further later on I took admission in AJAY KUMAR GARG ENGINEERING COLLEGE,GHAZIABAD for pursuing B.TECH course in computer science.</p>
+	</div>
+	<br>
+	<hr>
+	<div class="more">
+		<h1>More Info</h1>
+	</div>
+	
+   <div class="container-fluid team mb-5" style="text-align: center;">
+            <div class="container">
+                <div class="row" style="margin-bottom: 150px;">
+                    <div class="col-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="image.jpg" alt="Avatar" style="width:500px;height:300px;">
+                              </div>
+                              <div class="flip-card-back">
+                               	<ul>
+						                           <li>Scored 90% in Class 10th ICSE Board</li>
+						                           <li>Scored 96% in Class 12th ISC Board</li>
+						                           <li>Scored 9.24 SGPA in 1st year B.TECH</li>
+					                     </ul>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="image2.jpg" alt="Avatar" style="width:500px;height:300px;">
+                              </div>
+                              <div class="flip-card-back">
+                             <ul>
+					                    	<li>C++</li>
+						                    <li>C</li>
+						                    <li>JAVA</li>
+						                    <li>SQL</li>
+						                    <li>HTML</li>
+						                    <li>CSS</li>
+				                      	</ul>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-4">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="image3.jpg" alt="Avatar" style="width:500px;height:300px;">
+                              </div>
+                              <div class="flip-card-back">
+                            <ul>
+						                   <li>Cooking</li>
+						                   <li>Watching Movies</li>
+						                   <li>Gardening</li>
+						                   <li>Reading</li>
+					                 </ul>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+	 <hr>
+	 <div class="end">
+	 	<h3>GET IN TOUCH</h3>
+	 </div>
+  <div class="info">
+    
+    <h4>MOBILE NUMBER: 7706901001</h4>
+    <h4>FACEBOOK: <a href="https://www.facebook.com/anusha.singh.921/" target="_blank">CLICK HERE</a></h4> 
+    <h4>INSTAGRAM:<a href="https://www.instagram.com/anushasingh___/?hl=en" target="_blank"> CLICK HERE </a></h4>
+    <h4>GMAIL:anushasingh00@gmail.com</h4>
+  </div>
+  <br>
+  <br>
+  <hr>
+  <br>
+    
+  <h4>THANKS FOR VISITING!</h4>
+  <br>
+  <br>
+  <br>
+
+		
+
+
+</body>
+</html>
