@@ -1,0 +1,150 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+
+	
+}
+body
+{
+	background-image: url(./backp.jpg);
+	background-position: center ;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	background-color: #464646;
+	
+}
+
+.container{
+		text-align:center;
+		padding-top: 50px;
+		font-size: 2rem;
+		color:rgb(0,128,128);
+		font-family:josefin+sans;
+		text-decoration: underline;
+	}
+.intro{
+		text-align:center;
+		padding-top: 50px;
+		font-size: 2rem;
+		color:rgb(220,20,60);
+		font-family:'dancing script',cursive;
+	}
+.heading{
+        text-align:center;
+		padding: 50px;
+		font-size: 1.5rem;
+		color:rgb(142, 68, 173);
+		font-family: 'Abril Fatface', cursive;
+		text-decoration:underline;
+	}
+	.image{
+		text-align:center;
+		padding:5px;
+
+        }
+	.content{
+		 text-align:center;
+		padding: 5px;
+		margin-left: 30px;
+		font-size: 1.3rem;
+		color:#000;
+		font-family:'dancing script',cursive;
+		
+
+	}
+
+	.more {
+		padding: 30px;
+		text-decoration:underline;
+		color:rgb(142, 68, 173);
+		font-family: 'Abril Fatface', cursive;
+		text-align: center;
+
+	}
+	
+    
+.col-4{
+  	display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.flip-card {
+    background-color: transparent;
+	width: 500px;
+	
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+ 
+  .flip-card-back {
+  	padding-top: 30px;
+    background-color:teal;
+    color: white;
+    transform: rotateY(-180deg);
+    font-family:  josefin+sans;
+  }
+  .end{
+    	text-align:center;
+		padding: 25px;
+		margin-left: 30px;
+		font-size: 1.5rem;
+		color:rgb(142, 68, 173);
+		font-family: 'Abril Fatface', cursive;
+		text-decoration:underline;
+	    }
+ 
+.info h4{
+	text-align:center;
+		padding: 5px;
+		margin-left: 30px;
+		font-size: 1.3rem;
+		color:#000;
+		font-family:josefin+sans;
+		text-decoration:none; 
+}
+h4{
+	text-align: center;
+	font-size: 1.3rem;
+	color:crimson;
+	font-family: 'Abril Fatface', cursive;
+
+	
+}
+
+ 
+
+ 
